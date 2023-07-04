@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from '../redux/actions/apiActions';
+import { fetchProducts } from '../redux/actions/productActions';
 import { useNavigate } from "react-router-dom";
 import { addToCart } from '../redux/actions/cartActions';
 
